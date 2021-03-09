@@ -8,4 +8,19 @@
   margin: 5px;
   cursor: pointer;
   color: white;
+} 
+
+.preview__toolbarRight {
+  color: white;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.preview__toolbarRight > .MuiSvgIcon-root {
+  font-size: 20px!important;
+  margin-bottom:8px;
+  cursor: pointer;
 }
