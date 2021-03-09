@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router';
 import { resetCameraImage, selectCameraImage } from './features/cameraSlice';
 import './Preview.css';
-import { Close, AttachFile, Create, Crop, MusicNote, Note, Timer, TextFields } from '@material-ui/icons';
+import { Close, AttachFile, Create, Crop, MusicNote, Note, Timer, TextFields, Send } from '@material-ui/icons';
 
 
 function Preview() {
@@ -20,6 +20,10 @@ function Preview() {
     dispatch(resetCameraImage());
   }
 
+  const sendPost = () => {
+   //to do tommorow send post to firebase
+  }
+
   return (
     <div className="preview">
       <Close onClick={closePreview} className="preview__close" />
@@ -33,6 +37,10 @@ function Preview() {
         <Timer />
       </div>
       <img src={cameraImage} alt="" />
+      <div onClick={sendPost} className="preview__footer">
+        <h2>Send now</h2>
+        <Send className="preview__sendIcon" />
+      </div>
     </div>
   )
 }
