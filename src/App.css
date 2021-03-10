@@ -10,3 +10,21 @@
   background-color: #fefc01;
   height: 100vh;
 }
+
+.app__logo {
+  object-fit: contain;
+  height: 100px;
+}
+
+.body__background {
+  background-color: white;
+  height: 400px;
+}
+
+.app__body {
+  background: url("https://www.pngkey.com/png/full/859-8598072_picture-freeuse-library-silhouette-mobile-at-getdrwawings-cell.png") no-repeat center;
+  background-size: contain;
+  height: 400px;
+  width: 250px;
+  padding: 74px;
+}
