@@ -18,6 +18,10 @@ Heres a live <a href="https://snapchat-387f2.web.app/">link</a>
 
 <img src="./src/Images/snap.PNG" alt="">
 
+
+<img src="./src/Images/snaps.PNG" alt="">
+
+
 ## Features
 
 Slack 2.0 web  app has the following features
