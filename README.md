@@ -18,7 +18,7 @@ Heres a live <a href="https://snapchat-387f2.web.app/">link</a>
 
 <img src="./src/images/snap.PNG" alt="">
 
-<img src="./src/images/snaps.PNG" alt="">
+<!-- <img src="./src/images/snaps.PNG" alt=""> -->
 
 ## Features
 
