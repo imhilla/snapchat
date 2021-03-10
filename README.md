@@ -16,7 +16,7 @@ Snapchat is a snapchat clone built with React, Redux, Firebase, Google Auth, Rea
 Heres a live <a href="https://snapchat-387f2.web.app/">link</a>
 
 
-<img src="./src/Images/snap.PNG" alt="">
+<img src="./src/images/snap.PNG" alt="">
 
 
 ## Features
