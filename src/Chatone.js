@@ -32,7 +32,7 @@ export default function Chat({ id, profilePic, username, timestamp, imageUrl, re
       <Avatar src={profilePic} className="chat_avatar" />
       <div className="chat__info">
         <h4>{username}</h4>
-        <p>Tap to view - {date === null ? (<div>Loading</div>):(<div>{date}</div>)}</p>
+        <p>{!read && 'Tap to view - '}{date === null ? (<div>Loading</div>):(<div>{date}</div>)}</p>
       </div>
 
       {!read && <StopRounded className="chat__readIcon" />}
