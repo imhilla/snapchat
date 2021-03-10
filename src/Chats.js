@@ -13,8 +13,9 @@ export default function Chats() {
         id: doc.id,
         data: doc.data(),
       })))
-    })
+    }) 
   }, [posts])
+  
 
   return (
     <div className="chats">

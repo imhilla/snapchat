@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.chat:hover {
+  opacity: 0.8;
+}
+
 .chat_avatar {
   height: 35px !important;
   width: 35px !important;
