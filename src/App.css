@@ -9,6 +9,7 @@
   justify-content: center;
   background-color: #fefc01;
   height: 100vh;
+  overflow: hidden;
 }
 
 .app__logo {
